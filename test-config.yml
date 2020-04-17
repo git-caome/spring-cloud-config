@@ -4,16 +4,13 @@ spring:
 
 ---
 
-
 server:
   port: 8085
 
 spring:
   profiles:
-    application: dev
+  application: dev
       name: test-cloud.1
-
-
 ---
 
 server:
@@ -21,5 +18,5 @@ server:
 
 spring:
   profiles:
-    application: test
+  application: test
       name: test-cloud.2
